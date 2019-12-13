@@ -52,10 +52,28 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmUtas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUtas.Designer.cs">
+      <DependentUpon>FrmUtas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUtasLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUtasLista.Designer.cs">
+      <DependentUpon>FrmUtasLista.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUtas.resx">
+      <DependentUpon>FrmUtas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUtasLista.resx">
+      <DependentUpon>FrmUtasLista.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

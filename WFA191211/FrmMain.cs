@@ -53,5 +53,17 @@ namespace WFA191211
 
             conn.Close();
         }
+
+        private void TsmiSzerkesztes_Click(object sender, EventArgs e)
+        {
+            var frm = new FrmUtas(conn);
+            frm.ShowDialog();
+        }
+
+        private void TsmiKereses_Click(object sender, EventArgs e)
+        {
+            var frm = new FrmUtasLista();
+            frm.ShowDialog();
+        }
     }
 }
